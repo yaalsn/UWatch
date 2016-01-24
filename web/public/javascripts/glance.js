@@ -55,7 +55,7 @@
             }
         });
 
-        timer = setTimeout( ajaxGetMessageGroup, 1000 );
+        timer = setTimeout( ajaxGetMessageGroup, 50 );
     });
 
     function change(name, reverse, to, from) {
